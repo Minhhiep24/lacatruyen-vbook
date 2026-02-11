@@ -1,18 +1,19 @@
 {
-  "metadata": {
-    "name": "La Ca Truyện",
-    "author": "Của Bạn",
-    "version": 1,
-    "source": "https://lacatruyen.com",
-    "regexp": "https://lacatruyen\\.com/.*",
-    "description": "Đọc truyện trên La Ca Truyện",
-    "locale": "vi_VN",
-    "type": "novel"
-  },
-  "script": {
-    "detail": "detail.js",
-    "toc": "toc.js",
-    "chap": "chap.js",
-    "search": "search.js"
-  }
+    "metadata": {
+        "name": "La Ca Truyện",
+        "author": "Của Bạn",
+        "version": 1,
+        "source": "https://lacatruyen.com",
+        "regexp": "https://lacatruyen\\.com/.*",
+        "description": "Đọc truyện trên La Ca Truyện",
+        "locale": "vi_VN",
+        "language": "javascript",
+        "type": "novel"
+    },
+    "script": {
+        "detail": "detail.js",
+        "toc": "toc.js",
+        "chap": "chap.js",
+        "search": "search.js"
+    }
 }

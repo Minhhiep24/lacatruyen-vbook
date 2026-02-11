@@ -1,15 +1,27 @@
 function execute(url) {
+    url = url.replace("http://", "https://");
     let response = fetch(url);
+
     if (response.ok) {
         let doc = response.html();
+        
+        // Selector cho lacatruyen.com
+        let name = doc.select("h1.title").text();
+        let cover = doc.select(".book-info img").attr("src");
+        let author = doc.select(".author a").text();
+        let description = doc.select(".description").html();
+        
+        // Trạng thái truyện
+        let status = doc.text().indexOf("Đang ra") !== -1;
+
         return Response.success({
-            name: doc.select("h1.title").text(),
-            author: doc.select(".author a").text(),
-            description: doc.select(".description").html(),
-            cover: doc.select(".book-info img").attr("src"),
+            name: name,
+            cover: cover,
             host: "https://lacatruyen.com",
-            ongoing: doc.text().indexOf("Đang ra") >= 0
+            author: author,
+            description: description,
+            ongoing: status
         });
     }
-    return Response.error("Không thể tải thông tin truyện");
+    return null;
 }
