@@ -4,7 +4,7 @@
     "author": "Minh Hiep",
     "version": 1,
     "source": "https://lacatruyen.com",
-    "regexp": "https://lacatruyen.com/truyen/.*",
+    "regexp": "https://lacatruyen.com/story/.*",
     "description": "Đọc truyện từ lacatruyen.com",
     "locale": "vi_VN",
     "type": "novel"
