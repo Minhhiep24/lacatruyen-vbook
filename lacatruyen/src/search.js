@@ -25,7 +25,7 @@ function execute(key, page) {
     json.data.forEach(function(item) {
       result.push({
         name: item.title,
-        link: "https://lacatruyen.com/truyen/" + item.slug,
+        link: "https://lacatruyen.com/story/" + item.slug,
         host: "https://lacatruyen.com",
         cover: "https://lacatruyen.com/storage/" + item.image,
         description: item.description
