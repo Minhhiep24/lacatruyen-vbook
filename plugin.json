@@ -1,0 +1,19 @@
+{
+    "metadata": {
+        "author": "Zela",
+        "description": "VBook extension của Zela"
+    },
+    "data": [
+        {
+            "name": "LacaTruyen",
+            "author": "Zela",
+            "path": "https://raw.githubusercontent.com/pahung1999/ext_vbook/main/69shuba_tw/plugin.zip",
+            "version": 3,
+            "source": "https://lacatruyen.com",
+            "icon": "https://raw.githubusercontent.com/pahung1999/ext_vbook/main/69shuba_tw/icon.png",
+            "description": "Đọc truyện trên lacatruyen.com",
+            "type": "novel",
+            "locale": "vi_VN"
+        }
+    ]
+}
