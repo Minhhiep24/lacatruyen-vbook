@@ -8,7 +8,7 @@
     "description": "Đọc truyện trên trang Truyện Dâm cô nương",
     "locale": "vi_VN",
     "language": "javascript",
-    "type": "comic"
+    "type": "comic",
     "tag": "nsfw"
   },
   "script": {
