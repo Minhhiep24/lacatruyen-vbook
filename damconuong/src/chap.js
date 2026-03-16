@@ -16,7 +16,7 @@ function execute(url) {
             // Lấy phần tử ảnh tại vị trí i
             let e = imgs.get(i);
             // Lấy URL ảnh từ thuộc tính data-original
-            let link = e.attr("data-original-src").trim();
+            let link = e.attr("data-src").trim();
             // Nếu có URL ảnh dự phòng
             if (link !== undefined) {
                 // Thay thế domain mangaqq.net hoặc cdnqq.xyz bằng i200.truyenvua.com
